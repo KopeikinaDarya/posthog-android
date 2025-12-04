@@ -1,7 +1,17 @@
 ## Next
 
+## 3.27.2 - 2025-12-03
+
+- fix: NoSuchMethodError PostHogAndroidConfig ([#342](https://github.com/PostHog/posthog-android/pull/342))
+
+## 3.27.1 - 2025-12-03
+
+- fix: attempt to fix NoSuchMethodError PostHogAndroidConfig ([#342](https://github.com/PostHog/posthog-android/pull/342))
+
 ## 3.27.0 - 2025-12-02
 
+- feat: add `sendFeatureFlagEvent` properties in function getFeatureFlag() for override config's
+  sendFeatureFlagEvent ([#319](https://github.com/PostHog/posthog-android/pull/319))
 - feat: include `evaluated_at` properties in `$feature_flag_called` events ([#321](https://github.com/PostHog/posthog-android/pull/321))
 - feat: proguard support ([#316](https://github.com/PostHog/posthog-android/pull/316))
 
