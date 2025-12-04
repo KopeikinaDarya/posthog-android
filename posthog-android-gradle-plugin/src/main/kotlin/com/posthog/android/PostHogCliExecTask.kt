@@ -27,7 +27,7 @@ internal abstract class PostHogCliExecTask : Exec() {
         }
 
         // TODO: CLI path config
-        args.add("posthog-cli")
+        //args.add("posthog-cli")
 
         getArguments(args)
 
